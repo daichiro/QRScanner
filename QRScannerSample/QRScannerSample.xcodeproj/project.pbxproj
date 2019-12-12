@@ -14,6 +14,14 @@
 		16A163F7235710050032684C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A163F5235710050032684C /* LaunchScreen.storyboard */; };
 		16A163FF235710580032684C /* QRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A163FE235710580032684C /* QRScanner.framework */; };
 		16A16400235710580032684C /* QRScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16A163FE235710580032684C /* QRScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763C9A8323A2312000364B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C9A8223A2312000364B1D /* AppDelegate.swift */; };
+		763C9A8523A2312000364B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C9A8423A2312000364B1D /* SceneDelegate.swift */; };
+		763C9A8723A2312000364B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C9A8623A2312000364B1D /* ContentView.swift */; };
+		763C9A8923A2312100364B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763C9A8823A2312100364B1D /* Assets.xcassets */; };
+		763C9A8C23A2312100364B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763C9A8B23A2312100364B1D /* Preview Assets.xcassets */; };
+		763C9A8F23A2312100364B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763C9A8D23A2312100364B1D /* LaunchScreen.storyboard */; };
+		763C9A9623A2314400364B1D /* QRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763C9A9523A2314400364B1D /* QRScanner.framework */; };
+		763C9A9723A2314400364B1D /* QRScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 763C9A9523A2314400364B1D /* QRScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76598FBF237586CC0099593E /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76598FBE237586CC0099593E /* FlashButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +37,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		763C9A9823A2314400364B1D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				763C9A9723A2314400364B1D /* QRScanner.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +59,15 @@
 		16A163F6235710050032684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16A163F8235710050032684C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A163FE235710580032684C /* QRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		763C9A8023A2312000364B1D /* QRScannerSampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScannerSampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		763C9A8223A2312000364B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		763C9A8423A2312000364B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		763C9A8623A2312000364B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		763C9A8823A2312100364B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		763C9A8B23A2312100364B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		763C9A8E23A2312100364B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		763C9A9023A2312100364B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763C9A9523A2314400364B1D /* QRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76598FBE237586CC0099593E /* FlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +80,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		763C9A7D23A2312000364B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763C9A9623A2314400364B1D /* QRScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,7 +96,9 @@
 			children = (
 				16A163FE235710580032684C /* QRScanner.framework */,
 				16A163EB235710040032684C /* QRScannerSample */,
+				763C9A8123A2312000364B1D /* QRScannerSampleSwiftUI */,
 				16A163EA235710040032684C /* Products */,
+				763C9A9423A2314400364B1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				16A163E9235710040032684C /* QRScannerSample.app */,
+				763C9A8023A2312000364B1D /* QRScannerSampleSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +123,36 @@
 				16A163F8235710050032684C /* Info.plist */,
 			);
 			path = QRScannerSample;
+			sourceTree = "<group>";
+		};
+		763C9A8123A2312000364B1D /* QRScannerSampleSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				763C9A8223A2312000364B1D /* AppDelegate.swift */,
+				763C9A8423A2312000364B1D /* SceneDelegate.swift */,
+				763C9A8623A2312000364B1D /* ContentView.swift */,
+				763C9A8823A2312100364B1D /* Assets.xcassets */,
+				763C9A8D23A2312100364B1D /* LaunchScreen.storyboard */,
+				763C9A9023A2312100364B1D /* Info.plist */,
+				763C9A8A23A2312100364B1D /* Preview Content */,
+			);
+			path = QRScannerSampleSwiftUI;
+			sourceTree = "<group>";
+		};
+		763C9A8A23A2312100364B1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				763C9A8B23A2312100364B1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		763C9A9423A2314400364B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				763C9A9523A2314400364B1D /* QRScanner.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,18 +176,39 @@
 			productReference = 16A163E9235710040032684C /* QRScannerSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		763C9A7F23A2312000364B1D /* QRScannerSampleSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763C9A9323A2312100364B1D /* Build configuration list for PBXNativeTarget "QRScannerSampleSwiftUI" */;
+			buildPhases = (
+				763C9A7C23A2312000364B1D /* Sources */,
+				763C9A7D23A2312000364B1D /* Frameworks */,
+				763C9A7E23A2312000364B1D /* Resources */,
+				763C9A9823A2314400364B1D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRScannerSampleSwiftUI;
+			productName = QRScannerSampleSwiftUI;
+			productReference = 763C9A8023A2312000364B1D /* QRScannerSampleSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		16A163E1235710040032684C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = mercari.com;
 				TargetAttributes = {
 					16A163E8235710040032684C = {
 						CreatedOnToolsVersion = 10.3;
+					};
+					763C9A7F23A2312000364B1D = {
+						CreatedOnToolsVersion = 11.2;
 					};
 				};
 			};
@@ -136,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				16A163E8235710040032684C /* QRScannerSample */,
+				763C9A7F23A2312000364B1D /* QRScannerSampleSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +242,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		763C9A7E23A2312000364B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763C9A8F23A2312100364B1D /* LaunchScreen.storyboard in Resources */,
+				763C9A8C23A2312100364B1D /* Preview Assets.xcassets in Resources */,
+				763C9A8923A2312100364B1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -161,6 +262,16 @@
 				16A163EF235710040032684C /* ViewController.swift in Sources */,
 				16A163ED235710040032684C /* AppDelegate.swift in Sources */,
 				76598FBF237586CC0099593E /* FlashButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763C9A7C23A2312000364B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763C9A8323A2312000364B1D /* AppDelegate.swift in Sources */,
+				763C9A8523A2312000364B1D /* SceneDelegate.swift in Sources */,
+				763C9A8723A2312000364B1D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +290,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				16A163F6235710050032684C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		763C9A8D23A2312100364B1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763C9A8E23A2312100364B1D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -338,6 +457,46 @@
 			};
 			name = Release;
 		};
+		763C9A9123A2312100364B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QRScannerSampleSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRScannerSampleSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.QRScannerSampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		763C9A9223A2312100364B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QRScannerSampleSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRScannerSampleSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.QRScannerSampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +514,15 @@
 			buildConfigurations = (
 				16A163FC235710050032684C /* Debug */,
 				16A163FD235710050032684C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763C9A9323A2312100364B1D /* Build configuration list for PBXNativeTarget "QRScannerSampleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763C9A9123A2312100364B1D /* Debug */,
+				763C9A9223A2312100364B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

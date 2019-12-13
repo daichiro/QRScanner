@@ -39,6 +39,13 @@ public class QRScannerView: UIView {
         }
     }
 
+    // MARK: - Override
+    public override var frame: CGRect {
+        didSet {
+            previewLayer?.frame = CGRect(origin: .zero, size: frame.size)
+        }
+    }
+
     // MARK: - Public Properties
     @IBInspectable
     public var focusImage: UIImage?
